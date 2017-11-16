@@ -10,7 +10,7 @@
   <widgets xsi:type="model:Label" id="7" x="456" y="221" text="Catalogue des contrats" measuredWidth="250" measuredHeight="40" textAlignment="Center">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Table" id="8" x="127" y="317" width="605" height="433" text="Domaine ^v,Code Contrat ^v,Denomination ^v, Descriptif ^v, Tarif annuel ^v&#xD;&#xA;Assurance, 1,Assurance habitation, Assurance logement foyer familial..., 1200€&#xD;&#xA;(bg:lightGreen).Telephonie, (bg:lightGreen). 2, (bg:lightGreen).Forfait Open, (bg:lightGreen).Forfait avec téléphonie illimitée..., (bg:lightGreen). 310€&#xD;&#xA;Santé,3, Mutuelle Santé, Mutuelle prévention maladie ..., 790€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€" measuredWidth="605" measuredHeight="433" alternative="#eee">
+  <widgets xsi:type="model:Table" id="8" x="127" y="317" width="605" height="433" text="Domaine ^v,Code Contrat ^v,Denomination ^v, Descriptif ^v, Tarif annuel ^v&#xD;&#xA;Assurance, 1,Assurance habitation, Assurance logement foyer familial..., 1200€&#xD;&#xA;(bg:lightGreen).Telephonie, (bg:lightGreen). 2, (bg:lightGreen).Forfait Open, (bg:lightGreen).Forfait avec téléphonie illimitée..., (bg:lightGreen). 310€&#xD;&#xA;Santé,3, Mutuelle Santé, Mutuelle prévention maladie ..., 790€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€" measuredWidth="605" measuredHeight="433" verticalScrollbar="true" alternative="#eee">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="9" x="10" y="783" measuredWidth="6" measuredHeight="23">
@@ -49,6 +49,7 @@
   <widgets xsi:type="model:Label" id="22" x="909" y="504" width="51" text="310 €" measuredWidth="51" measuredHeight="23">
     <font/>
   </widgets>
+  <widgets xsi:type="model:Hotspot" id="23" x="910" y="232" width="122" height="55" measuredWidth="122" measuredHeight="55" link="nouvelle_souscription.screen"/>
   <hRuler>
     <guides position="351"/>
     <guides position="331"/>

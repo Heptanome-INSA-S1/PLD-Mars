@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="80" y="69" measuredWidth="1001" measuredHeight="737" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/windows_screen.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="80" y="119" measuredWidth="1001" measuredHeight="81">
+    <screen xsi:type="model:Screen" href="../assets/en_tete_short.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="3" x="89" y="211" width="984" height="583" measuredWidth="984" measuredHeight="583" background="#d9d2e9"/>
+  <widgets xsi:type="model:Label" id="4" x="456" y="221" text="Catalogue des contrats" measuredWidth="250" measuredHeight="40" textAlignment="Center">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="5" x="127" y="317" width="605" height="433" text="Domaine ^v,Code Contrat ^v,Denomination ^v, Descriptif ^v, Tarif annuel ^v&#xD;&#xA;Assurance, 1,Assurance habitation, Assurance logement foyer familial..., 1200€&#xD;&#xA;(bg:lightGreen).Telephonie, (bg:lightGreen). 2, (bg:lightGreen).Forfait Open, (bg:lightGreen).Forfait avec téléphonie illimitée..., (bg:lightGreen). 310€&#xD;&#xA;Santé,3, Mutuelle Santé, Mutuelle prévention maladie ..., 790€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€" measuredWidth="605" measuredHeight="433" verticalScrollbar="true" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="10" y="783" measuredWidth="6" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="148" y="237" text="Retour" measuredWidth="38" measuredHeight="58" textAlignment="Center" icon="delete (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="910" y="237" text="Créer une souscription" measuredWidth="122" measuredHeight="58" textAlignment="Center" icon="add (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="9" x="751" y="317" width="305" height="433" text="Informations Contrat" measuredWidth="305" measuredHeight="433" alpha="0">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="761" y="352" width="93" text="Code contrat :" measuredWidth="93" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="872" y="352" width="48" text="2" measuredWidth="48" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="761" y="380" width="94" text="Dénomination :" measuredWidth="94" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="861" y="380" width="77" text="Forfait Open" measuredWidth="77" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="761" y="404" width="93" text="Description :" measuredWidth="93" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="15" x="761" y="431" width="292" height="74" text="Forfait avec téléphonie illimitée en Europe, 20 Go d'Internet en France et 10 Go en Europe hors territoire français. " measuredWidth="292" measuredHeight="74">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="761" y="504" width="121" text="Tarif annuel de base :" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="909" y="504" width="51" text="310 €" measuredWidth="51" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="18" x="163" y="294" measuredWidth="869" measuredHeight="427">
+    <screen xsi:type="model:Screen" href="../assets/vue_360/cartouche_recherche_client.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Button" id="21" x="915" y="-203" width="118" height="47" text="Annuler" background="#c00">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="6"/>
+      <widgetChanges xsi:type="o:Delete" ref="5"/>
+      <widgetChanges xsi:type="o:Delete" ref="4"/>
+      <widgetChanges xsi:type="o:Delete" ref="3"/>
+      <widgetChanges xsi:type="o:Insert" newIndex="1">
+        <object xsi:type="model:Group" id="20" x="290" y="-89" width="473" height="143" text="Appels">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="1">
+        <object xsi:type="model:Group" id="19" x="290" y="-264" width="473" height="134" text="Internet">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgets ref="1" x="246" y="-317" width="869" height="427"/>
+      <widgets ref="2" x="300" y="-247" width="453" height="109" text="(o) Forfait 30 Go : +4,99€/mois&#xA;( ) Forfait 50Go : +7,99€/mois&#xA;( ) Internet illimité : +14,99€/mois">
+        <items ref="@items.0" text="(o) Forfait 30 Go : +4,99€/mois"/>
+        <items ref="@items.1" text="( ) Forfait 50Go : +7,99€/mois"/>
+        <items ref="@items.2" text="( ) Internet illimité : +14,99€/mois"/>
+      </widgets>
+      <widgets ref="7" x="915" y="-51" width="118" height="47" text="Valider">
+        <attributes key="background" value="#93c47d"/>
+      </widgets>
+      <widgets ref="8" x="300" y="-69" width="453" height="103" text="() Appels illimités en Europe : +2,99€/mois&#xD;&#xA;(o) Appels illimités dans le Monde : +8,99€/mois ">
+        <items ref="@items.0" text="() Appels illimités en Europe : +2,99€/mois"/>
+        <itemChanges xsi:type="o:Insert" newIndex="1">
+          <object xsi:type="model:Item" text="(o) Appels illimités dans le Monde : +8,99€/mois "/>
+        </itemChanges>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -7,7 +7,7 @@
     <screen xsi:type="model:Screen" href="../assets/en_tete_short.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="3" x="90" y="190" width="984" height="583" measuredWidth="984" measuredHeight="583" background="#d9d2e9"/>
-  <widgets xsi:type="model:Label" id="4" x="474" y="200" text="Gestion des contrats" measuredWidth="215" measuredHeight="39" textAlignment="Center">
+  <widgets xsi:type="model:Label" id="4" x="474" y="200" text="Gestion des contrats" measuredWidth="223" measuredHeight="40" textAlignment="Center">
     <font size="24px"/>
   </widgets>
   <widgets xsi:type="model:Table" id="5" x="105" y="265" width="432" height="498" text="Domaine ^v,Denomination ^v, Tarif annuel ^v, Tarif mensuel ^v&#xD;&#xA;Assurance, Assurance habitation, 1200€, 100€&#xD;&#xA;(bg:lightGreen).Telephonie, (bg:lightGreen).Forfait Open, (bg:lightGreen).310€, (bg:lightGreen). 25.84€&#xD;&#xA;Santé, Mutuelle Santé, 790€, 65.84€" measuredWidth="432" measuredHeight="498" alternative="#eee">
@@ -77,7 +77,7 @@
   <widgets xsi:type="model:Label" id="72" x="615" y="721" text="Tarif de base :" measuredWidth="78" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="73" x="708" y="721" text="300 €" measuredWidth="33" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="73" x="708" y="721" text="310 €" measuredWidth="33" measuredHeight="23">
     <font/>
   </widgets>
   <widgets xsi:type="model:Table" id="74" x="782" y="458" height="93" text="Denomination ^v, Prix ^v&#xD;&#xA;Deezer Premium, 60€&#xD;&#xA;10GB Sup., 120€" measuredWidth="155" measuredHeight="93" alternative="#eee">
