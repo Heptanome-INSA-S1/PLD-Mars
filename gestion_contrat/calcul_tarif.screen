@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Alert" id="1" x="759" y="432" text="Nouveau tarif&#xA;Le nouveau tarif annuel est de 400€, soit 33,34€/ mois&#xA;Continuer,Annuler" measuredWidth="368" measuredHeight="132" icon="warning (large)">
+    <items link="consulter_detail_contrat.screen" x="178" y="93" width="80" height="24" text="Continuer"/>
+    <items link="modifier_souscription.screen" x="273" y="93" width="80" height="24" text="Annuler"/>
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

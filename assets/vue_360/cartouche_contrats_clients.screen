@@ -6,7 +6,7 @@
   <widgets xsi:type="model:Table" id="2" x="82" y="176" width="475" height="145" text="Domaine v, Souscription, Tarif total, Mensualité, Etat&#xD;&#xA;Assurance, 4, 1680, 35 €, En cours&#xD;&#xA;Santé, 1, 450, 10, Résilié au 30/10/2017" measuredWidth="475" measuredHeight="145" alternative="#eee">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="3" x="261" y="336" text="Accéder à l'espace" measuredWidth="117" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="3" x="261" y="336" text="Accéder à l'espace" measuredWidth="117" measuredHeight="25" link="../../gestion_contrat/consulter_detail_contrat.screen">
     <font/>
   </widgets>
   <hRuler/>
