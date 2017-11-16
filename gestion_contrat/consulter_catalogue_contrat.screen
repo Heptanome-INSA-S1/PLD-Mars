@@ -10,7 +10,7 @@
   <widgets xsi:type="model:Label" id="7" x="456" y="221" text="Catalogue des contrats" measuredWidth="250" measuredHeight="40" textAlignment="Center">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Table" id="8" x="127" y="317" width="605" height="433" text="Domaine ^v,Code Contrat ^v,Denomination ^v, Descriptif ^v, Tarif annuel ^v&#xD;&#xA;Assurance, 1,Assurance habitation, Assurance logement pour foyer familial, 1200€&#xD;&#xA;(bg:lightGreen).Telephonie, (bg:lightGreen). 2, (bg:lightGreen).Forfait Open, (bg:lightGreen).Forfait avec téléphonie illimitée et 20Go d'internet, (bg:lightGreen). 310€&#xD;&#xA;Santé,3, Mutuelle Santé, Mutuelle prévention maladie avec couverture de 75% des dépenses santé, 790€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€" measuredWidth="605" measuredHeight="433" alternative="#eee">
+  <widgets xsi:type="model:Table" id="8" x="127" y="317" width="605" height="433" text="Domaine ^v,Code Contrat ^v,Denomination ^v, Descriptif ^v, Tarif annuel ^v&#xD;&#xA;Assurance, 1,Assurance habitation, Assurance logement foyer familial..., 1200€&#xD;&#xA;(bg:lightGreen).Telephonie, (bg:lightGreen). 2, (bg:lightGreen).Forfait Open, (bg:lightGreen).Forfait avec téléphonie illimitée..., (bg:lightGreen). 310€&#xD;&#xA;Santé,3, Mutuelle Santé, Mutuelle prévention maladie ..., 790€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€" measuredWidth="605" measuredHeight="433" alternative="#eee">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="9" x="10" y="783" measuredWidth="6" measuredHeight="23">
@@ -40,13 +40,13 @@
   <widgets xsi:type="model:Label" id="19" x="761" y="404" width="93" text="Description :" measuredWidth="93" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Text" id="20" x="761" y="431" width="292" height="74" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation " measuredWidth="292" measuredHeight="74">
+  <widgets xsi:type="model:Text" id="20" x="761" y="431" width="292" height="74" text="Forfait avec téléphonie illimitée en Europe, 20 Go d'Internet en France et 10 Go en Europe hors territoire français. " measuredWidth="292" measuredHeight="74">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="21" x="761" y="504" width="121" text="Tarif annuel de base :" measuredWidth="121" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="22" x="909" y="504" width="51" text="300 €" measuredWidth="51" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="22" x="909" y="504" width="51" text="310 €" measuredWidth="51" measuredHeight="23">
     <font/>
   </widgets>
   <hRuler>
