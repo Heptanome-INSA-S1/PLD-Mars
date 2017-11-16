@@ -25,7 +25,7 @@
   <widgets xsi:type="model:Combo" id="20" x="760" y="154" width="232" text="MACRON Emmanuel" measuredWidth="232" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Icon" id="26" x="1058" y="150" measuredWidth="32" measuredHeight="32" icon="line-arrow-down (large)"/>
+  <widgets xsi:type="model:Icon" id="26" x="1058" y="150" measuredWidth="32" measuredHeight="32" icon="assets/ic-keyboard-arrow-up (large)"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
