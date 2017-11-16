@@ -7,7 +7,7 @@
     <screen xsi:type="model:Screen" href="../assets/en_tete_short.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="3" x="89" y="211" width="984" height="583" measuredWidth="984" measuredHeight="583" background="#d9d2e9"/>
-  <widgets xsi:type="model:Label" id="4" x="456" y="221" text="Catalogue des contrats" measuredWidth="250" measuredHeight="40" textAlignment="Center">
+  <widgets xsi:type="model:Label" id="4" x="456" y="221" text="Catalogue des contrats" measuredWidth="241" measuredHeight="39" textAlignment="Center">
     <font size="24px"/>
   </widgets>
   <widgets xsi:type="model:Table" id="5" x="127" y="317" width="605" height="433" text="Domaine ^v,Code Contrat ^v,Denomination ^v, Descriptif ^v, Tarif annuel ^v&#xD;&#xA;Assurance, 1,Assurance habitation, Assurance logement foyer familial..., 1200€&#xD;&#xA;(bg:lightGreen).Telephonie, (bg:lightGreen). 2, (bg:lightGreen).Forfait Open, (bg:lightGreen).Forfait avec téléphonie illimitée..., (bg:lightGreen). 310€&#xD;&#xA;Santé,3, Mutuelle Santé, Mutuelle prévention maladie ..., 790€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€" measuredWidth="605" measuredHeight="433" verticalScrollbar="true" alternative="#eee">
@@ -49,7 +49,7 @@
   <widgets xsi:type="model:Label" id="17" x="909" y="504" width="51" text="310 €" measuredWidth="51" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Master" id="18" x="163" y="294" measuredWidth="869" measuredHeight="427">
+  <widgets xsi:type="model:Master" id="18" x="163" y="294" measuredWidth="774" measuredHeight="363">
     <screen xsi:type="model:Screen" href="../assets/vue_360/cartouche_recherche_client.screen#/"/>
     <overrides>
       <widgetChanges xsi:type="o:Insert" newIndex="8">
@@ -71,7 +71,10 @@
           <font/>
         </object>
       </widgetChanges>
-      <widgets ref="1" x="246" y="-317" width="869" height="427"/>
+      <widgetChanges xsi:type="o:Insert" newIndex="1">
+        <object xsi:type="model:Window" id="23" x="276" y="-298" width="774" height="363" text="Nouvelle souscription"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="1"/>
       <widgets ref="2" x="300" y="-247" width="453" height="109" text="(o) Forfait 30 Go : +4,99€/mois&#xA;( ) Forfait 50Go : +7,99€/mois&#xA;( ) Internet illimité : +14,99€/mois">
         <items ref="@items.0" text="(o) Forfait 30 Go : +4,99€/mois"/>
         <items ref="@items.1" text="( ) Forfait 50Go : +7,99€/mois"/>
