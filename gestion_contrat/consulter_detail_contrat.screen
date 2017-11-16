@@ -17,10 +17,10 @@
   <widgets xsi:type="model:Label" id="7" x="109" y="200" text="Nouvelle souscription" measuredWidth="118" measuredHeight="58" textAlignment="Center" icon="add (large)" iconPosition="top">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="8" x="966" y="200" text="Modifier" measuredWidth="48" measuredHeight="58" textAlignment="Center" icon="edit (large)" iconPosition="top">
+  <widgets xsi:type="model:Label" id="8" x="966" y="200" text="Modifier" measuredWidth="48" measuredHeight="58" textAlignment="Center" icon="edit (large)" iconPosition="top" link="modifier_souscription.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="9" x="852" y="200" text="Résilier" measuredWidth="40" measuredHeight="58" textAlignment="Center" icon="delete (large)" iconPosition="top">
+  <widgets xsi:type="model:Label" id="9" x="897" y="200" text="Résilier" measuredWidth="40" measuredHeight="58" textAlignment="Center" icon="delete (large)" iconPosition="top" link="resilier_souscription.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Group" id="54" x="608" y="253" width="441" height="308" text="Information Souscription" measuredWidth="441" measuredHeight="308" alpha="0">
