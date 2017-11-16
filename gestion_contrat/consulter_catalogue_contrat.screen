@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="2" x="80" y="69" measuredWidth="1001" measuredHeight="737" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/windows_screen.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="80" y="119" measuredWidth="1001" measuredHeight="81">
+    <screen xsi:type="model:Screen" href="../assets/en_tete_short.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="6" x="89" y="211" width="984" height="583" measuredWidth="984" measuredHeight="583" background="#d9d2e9"/>
+  <widgets xsi:type="model:Label" id="7" x="456" y="221" text="Catalogue des contrats" measuredWidth="250" measuredHeight="40" textAlignment="Center">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="8" x="127" y="317" width="605" height="433" text="Domaine ^v,Code Contrat ^v,Denomination ^v, Descriptif ^v, Tarif annuel ^v&#xD;&#xA;Assurance, 1,Assurance habitation, Assurance logement pour foyer familial, 1200€&#xD;&#xA;(bg:lightGreen).Telephonie, (bg:lightGreen). 2, (bg:lightGreen).Forfait Open, (bg:lightGreen).Forfait avec téléphonie illimitée et 20Go d'internet, (bg:lightGreen). 310€&#xD;&#xA;Santé,3, Mutuelle Santé, Mutuelle prévention maladie avec couverture de 75% des dépenses santé, 790€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€&#xD;&#xA;Lorem,4,Ipsum, Dolor, 486€" measuredWidth="605" measuredHeight="433" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="10" y="783" measuredWidth="6" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="148" y="237" text="Retour" measuredWidth="38" measuredHeight="58" textAlignment="Center" icon="delete (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="910" y="237" text="Créer une souscription" measuredWidth="122" measuredHeight="58" textAlignment="Center" icon="add (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="13" x="751" y="317" width="305" height="433" text="Informations Contrat" measuredWidth="305" measuredHeight="433" alpha="0">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="761" y="352" width="93" text="Code contrat :" measuredWidth="93" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="872" y="352" width="48" text="2" measuredWidth="48" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="761" y="380" width="94" text="Dénomination :" measuredWidth="94" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="861" y="380" width="77" text="Forfait Open" measuredWidth="77" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="761" y="404" width="93" text="Description :" measuredWidth="93" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="20" x="761" y="431" width="292" height="74" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation " measuredWidth="292" measuredHeight="74">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="761" y="504" width="121" text="Tarif annuel de base :" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="909" y="504" width="51" text="300 €" measuredWidth="51" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler>
+    <guides position="351"/>
+    <guides position="331"/>
+  </hRuler>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
