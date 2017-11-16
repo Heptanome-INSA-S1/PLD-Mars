@@ -77,7 +77,7 @@
   <widgets xsi:type="model:Label" id="73" x="708" y="721" text="300 €" measuredWidth="33" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Table" id="74" x="782" y="458" height="93" text="Denomination ^v, Prix ^v, Etat ^v&#xD;&#xA;Deezer Premium, 60€, Souscrit {circled-minus}&#xD;&#xA;10GB Sup., 120€, Souscrit {circled-minus}&#xD;&#xA;Deuxieme puce, 50€, Non souscrit {circled-plus}" measuredWidth="252" measuredHeight="93" alternative="#eee">
+  <widgets xsi:type="model:Table" id="74" x="782" y="458" height="93" text="Denomination ^v, Prix ^v, Etat ^v&#xD;&#xA;Deezer Premium, 60€, (o)&#xD;&#xA;10GB Sup., 120€, (o)&#xD;&#xA;Deuxieme puce, 50€, ()" measuredWidth="205" measuredHeight="93" alternative="#eee">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="75" x="619" y="392" text="Tarif annuel :" measuredWidth="74" measuredHeight="23">
