@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="96" y="160" width="1001" height="489" measuredWidth="1001" measuredHeight="489"/>
+  <widgets xsi:type="model:Table" id="2" x="96" y="160" width="1001" height="489" text="Dénomination Client,Adresse Client,Nom Personne. &#xA;\nFUTURE Association\n,12 Rue Mendès France\n 69006 Lyon,BAPINI Laurent\nPASCAL Martin,(o)&#xA;INSA Lyon, 20 Avenue Georges Sans\n69100 Villeurbanne, PASCAL Martinenne,()&#xA;PASCAL Martin, 37 Avenue Simone Veil Jaurès, PASCAL Martin,()&#xA;PASCAL Martinelle, 64 Rue Marie Curie\n69006 Lyon, PASCAL Martinette,()" measuredWidth="1001" measuredHeight="489" alternative="#eee">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

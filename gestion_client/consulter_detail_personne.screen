@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="80" y="48" measuredWidth="1001" measuredHeight="737" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/windows_screen.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="80" y="99" measuredWidth="1001" measuredHeight="81" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/en_tete_short.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="4" x="90" y="190" width="984" height="583" measuredWidth="984" measuredHeight="583" background="#cfe2f3"/>
+  <widgets xsi:type="model:Label" id="5" x="480" y="195" text="Gestion du client" measuredWidth="187" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="7" x="105" y="265" width="432" height="498" text="Nom ^v,Prénom ^v, Ville ^v&#xD;&#xA;(bg:lightGreen).Martin, (bg:lightGreen).Jean, (bg:lightGreen).Lyon&#xD;&#xA;Maurincomme, Lionel, Villeurbanne" measuredWidth="432" measuredHeight="498" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="105" y="240" text="Liste des personnes rattachées au compte" measuredWidth="225" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="408" y="696" text="Ajouter une personne" measuredWidth="117" measuredHeight="58" textAlignment="Center" icon="add (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="12" x="552" y="240" height="514" measuredWidth="6" measuredHeight="514"/>
+  <widgets xsi:type="model:TextField" id="13" x="736" y="284" width="289" text="Martin" measuredWidth="289" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="600" y="284" text="Nom" measuredWidth="33" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="600" y="313" text="Prénom" measuredWidth="48" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="18" x="736" y="313" width="289" text="Jean" measuredWidth="289" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="20" x="736" y="443" width="57" text="20" measuredWidth="57" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="600" y="443" text="Adresse" measuredWidth="47" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="23" x="736" y="470" width="289" measuredWidth="289" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="24" x="736" y="496" width="73" text="69006" measuredWidth="73" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="600" y="529" text="Situation Familiale" measuredWidth="103" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="27" x="736" y="529" width="289" text="Marié" measuredWidth="289" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="28" x="736" y="559" width="289" text="35000 €" measuredWidth="289" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="600" y="559" text="Revenus annuels" measuredWidth="94" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="600" y="588" text="Charges annuelles" measuredWidth="102" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="31" x="736" y="588" width="289" text="6500 €" measuredWidth="289" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="34" x="600" y="616" text="Profession" measuredWidth="61" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="35" x="600" y="645" text="Fiscalité" measuredWidth="48" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="36" x="736" y="645" width="289" text="Imposable" measuredWidth="289" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="37" x="736" y="675" width="289" text="Appartement - Propriétaire" measuredWidth="289" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="38" x="600" y="675" text="Logement" measuredWidth="60" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="39" x="600" y="704" text="Dernière modification" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="40" x="736" y="704" width="89" text="16/06/2017" measuredWidth="89" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="41" x="830" y="704" width="154" text="Macron, E." measuredWidth="154" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="49" x="800" y="443" width="224" text="Avenue Albert Einstein" measuredWidth="224" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="50" x="816" y="496" width="208" text="Lyon" measuredWidth="208" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="51" x="736" y="616" width="231" text="Chef d'entreprise" measuredWidth="231" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="52" x="740" y="470" text="Complément d'adresse" measuredWidth="128" measuredHeight="23" foreground="#444" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="53" x="966" y="200" text="Modifier" measuredWidth="48" measuredHeight="58" textAlignment="Center" icon="edit (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="823" y="200" text="Détacher du client" measuredWidth="99" measuredHeight="58" textAlignment="Center" icon="delete (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="57" x="736" y="340" width="289" text="12/08/1982" measuredWidth="289" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="58" x="600" y="340" text="Date de naissance" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="59" x="600" y="368" text="Courriel" measuredWidth="48" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="60" x="736" y="368" width="289" text="jean.martin@gmail.com" measuredWidth="289" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="61" x="600" y="395" text="Téléphone" measuredWidth="61" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="62" x="736" y="395" width="137" text="04.66.24.82.65" measuredWidth="137" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="63" x="880" y="395" width="145" measuredWidth="145" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="64" x="883" y="395" text="Portable" measuredWidth="50" measuredHeight="23" foreground="#444">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="65" x="647" y="442" width="79" text="Modifier" measuredWidth="79" measuredHeight="25" state="disabled" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="66" x="703" y="447" measuredWidth="16" measuredHeight="16" icon="find (small)"/>
+  <widgets xsi:type="model:Hotspot" id="67" x="958" y="195" width="67" height="54" measuredWidth="67" measuredHeight="54" link="modifier_personne.screen"/>
+  <widgets xsi:type="model:Hotspot" id="68" x="400" y="688" width="125" height="66" measuredWidth="125" measuredHeight="66" link="rechercher_personne.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" id="1" x="52" y="317" width="495" height="233" text="Informations client" measuredWidth="495" measuredHeight="233" background="#cfe2f3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="2" x="58" y="344" width="351" height="196" text="Nom ^v,Prénom ^v, Ville ^v&#xD;&#xA;Martin, Jean, Lyon&#xD;&#xA;Maurincomme, Lionel, Villeurbanne" measuredWidth="351" measuredHeight="196" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="3" x="392" y="364" height="176" measuredWidth="17" measuredHeight="176"/>
+  <widgets xsi:type="model:ProgressBar" id="4" x="424" y="400" measuredWidth="100" measuredHeight="18" value="29" background="#e06666"/>
+  <widgets xsi:type="model:ProgressBar" id="5" x="424" y="443" measuredWidth="100" measuredHeight="18" value="69" background="#93c47d"/>
+  <widgets xsi:type="model:ProgressBar" id="6" x="424" y="488" measuredWidth="100" measuredHeight="18" value="41" background="#ffe599"/>
+  <widgets xsi:type="model:Label" id="7" x="453" y="378" text="Risque" measuredWidth="41" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="447" y="422" text="Potentiel" measuredWidth="53" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="441" y="466" text="Réciprocité" measuredWidth="65" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="10" x="415" y="344" text="Accéder à l'espace" measuredWidth="117" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

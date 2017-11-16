@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="96" y="104" width="1001" height="81" measuredWidth="1001" measuredHeight="81" background="#f4cccc"/>
+  <widgets xsi:type="model:Label" id="2" x="143" y="111" text="Numéro client" measuredWidth="82" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="143" y="154" text="Dénomination client" measuredWidth="114" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="696" y="114" text="Agence" measuredWidth="46" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="696" y="157" text="Conseiller" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="10" x="272" y="111" width="281" text="458113545445" measuredWidth="281" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="272" y="154" width="281" text="INSA Lyon" measuredWidth="281" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="19" x="760" y="111" width="215" text="Cred'IF Agricole" measuredWidth="215" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="20" x="760" y="154" width="232" text="MACRON Emmanuel" measuredWidth="232" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="26" x="1058" y="150" measuredWidth="32" measuredHeight="32" icon="line-arrow-down (large)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

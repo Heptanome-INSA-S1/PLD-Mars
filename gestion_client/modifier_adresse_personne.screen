@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="61" y="36" measuredWidth="1001" measuredHeight="737" dimmed="true">
+    <screen xsi:type="model:Screen" href="modifier_personne.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="5"/>
+      <widgetChanges xsi:type="o:Delete" ref="4"/>
+      <widgetChanges xsi:type="o:Delete" ref="3"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="6" x="61" y="88" width="1001" height="685" measuredWidth="1001" measuredHeight="685" background="#000" alpha="84" border="none"/>
+  <widgets xsi:type="model:Master" id="7" x="294" y="194" measuredWidth="633" measuredHeight="402" dimmed="true">
+    <screen xsi:type="model:Screen" href="rechercher_adresse.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="8" x="651" y="539" width="119" height="24" measuredWidth="119" measuredHeight="24" link="modifier_personne.screen"/>
+  <widgets xsi:type="model:Hotspot" id="9" x="854" y="205" width="53" height="24" measuredWidth="53" measuredHeight="24" link="modifier_personne.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="2" x="33" y="40" measuredWidth="1001" measuredHeight="737" dimmed="true">
+    <screen xsi:type="model:Screen" href="consulter_detail_personne.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="3" x="33" y="91" width="1001" height="686" measuredWidth="1001" measuredHeight="686" background="#000" alpha="48" border="none"/>
+  <widgets xsi:type="model:Panel" id="4" x="240" y="216" width="597" height="409" measuredWidth="597" measuredHeight="409"/>
+  <widgets xsi:type="model:Label" id="5" x="462" y="229" text="Rechercher personne" measuredWidth="153" measuredHeight="29">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="317" y="305" text="Nom" measuredWidth="33" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="317" y="332" text="Prénom" measuredWidth="48" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="317" y="357" text="Ville" measuredWidth="28" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="317" y="383" text="Date de naissance" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="10" x="455" y="305" width="257" text="MARTIN" measuredWidth="257" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="455" y="332" width="257" text="Jean-Pascal" measuredWidth="257" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="12" x="455" y="358" width="257" text="Angers" measuredWidth="257" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="13" x="455" y="383" width="257" text="18 Février 1984  " measuredWidth="257" measuredHeight="23"/>
+  <widgets xsi:type="model:Table" id="14" x="277" y="421" width="524" height="140" text="Nom, Prénom, Ville, Date de naissance" measuredWidth="524" measuredHeight="140" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="15" x="769" y="226" text="Retour" measuredWidth="55" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="16" x="296" y="579" text="Créer une nouvelle personne" measuredWidth="171" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="17" x="614" y="579" text="Sélectionner une personne" measuredWidth="160" measuredHeight="25" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="18" x="769" y="226" width="55" height="24" measuredWidth="55" measuredHeight="24" link="consulter_detail_personne.screen"/>
+  <widgets xsi:type="model:Hotspot" id="19" x="296" y="580" width="171" height="23" measuredWidth="171" measuredHeight="23" link="creer_nouvelle_personne.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

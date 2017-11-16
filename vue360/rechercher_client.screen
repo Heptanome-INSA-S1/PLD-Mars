@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="96" y="48" measuredWidth="1001" measuredHeight="737" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/windows_screen.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="12" x="96" y="100" measuredWidth="1001" measuredHeight="141" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/vue_360/cartouche_recherche_client.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="14" x="96" y="239" measuredWidth="1001" measuredHeight="489" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/vue_360/cartouche_liste_client.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="15" x="312" y="744" width="601" height="25" text="CONSULTER LE DOSSIER" measuredWidth="601" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="16" x="312" y="744" width="601" height="25" measuredWidth="601" measuredHeight="25" link="vue_360.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" id="1" x="296" y="184" width="495" height="233" text="Relation Banque/Client" measuredWidth="495" measuredHeight="233" background="#d9ead3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="306" y="201" text="A priviligier :" measuredWidth="72" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="3" x="379" y="200" text="[x] mail" measuredWidth="53" measuredHeight="26" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="53" height="22" text="[x] mail"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="4" x="456" y="200" text="[x] téléphone" measuredWidth="83" measuredHeight="26" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="83" height="22" text="[x] téléphone"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="5" x="552" y="200" text="[] courrier" measuredWidth="71" measuredHeight="26" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="71" height="22" text="[] courrier"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="306" y="224" text="A éviter :" measuredWidth="52" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="7" x="379" y="223" text="[] mail" measuredWidth="53" measuredHeight="26" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="53" height="22" text="[] mail"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="8" x="456" y="223" text="[] téléphone" measuredWidth="83" measuredHeight="26" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="83" height="22" text="[] téléphone"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="9" x="552" y="223" text="[x] courrier" measuredWidth="71" measuredHeight="26" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="71" height="22" text="[x] courrier"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="10" x="306" y="256" width="475" height="151" text="Date v, Type, Agent, Motif, Etat&#xD;&#xA;15/11/2017, Contact commercial, Dupont, Compte, Réalisé&#xD;&#xA;16/10/2017, Entretien, Martin, RDV Crédit, Planifié" measuredWidth="475" measuredHeight="151" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="11" x="656" y="210" text="Accéder à l'espace" measuredWidth="117" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

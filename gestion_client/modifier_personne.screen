@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="40" y="49" measuredWidth="1001" measuredHeight="737" dimmed="true">
+    <screen xsi:type="model:Screen" href="consulter_detail_personne.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="67"/>
+      <widgets ref="13">
+        <attributes key="state" value="normal"/>
+      </widgets>
+      <widgets ref="18">
+        <attributes key="state" value="normal"/>
+      </widgets>
+      <widgets ref="27">
+        <attributes key="state" value="normal"/>
+      </widgets>
+      <widgets ref="28">
+        <attributes key="state" value="normal"/>
+      </widgets>
+      <widgets ref="31">
+        <attributes key="state" value="normal"/>
+      </widgets>
+      <widgets ref="36">
+        <attributes key="state" value="normal"/>
+      </widgets>
+      <widgets ref="37">
+        <attributes key="state" value="normal"/>
+      </widgets>
+      <widgets ref="51">
+        <attributes key="state" value="normal"/>
+      </widgets>
+      <widgets ref="53" x="937" text="Annuler">
+        <attributes key="icon" value="undo (large)"/>
+      </widgets>
+      <widgets ref="55">
+        <attributes key="state" value="disabled"/>
+      </widgets>
+      <widgets ref="57">
+        <attributes key="state" value="normal"/>
+      </widgets>
+      <widgets ref="60">
+        <attributes key="state" value="normal"/>
+      </widgets>
+      <widgets ref="62">
+        <attributes key="state" value="normal"/>
+      </widgets>
+      <widgets ref="63">
+        <attributes key="state" value="normal"/>
+      </widgets>
+      <widgets ref="65">
+        <attributes key="state" value="normal"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="965" y="196" text="Valider" measuredWidth="38" measuredHeight="58" textAlignment="Center" icon="check (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="3" x="892" y="196" width="52" height="58" measuredWidth="52" measuredHeight="58" link="consulter_detail_personne.screen"/>
+  <widgets xsi:type="model:Hotspot" id="4" x="952" y="196" width="72" height="58" measuredWidth="72" measuredHeight="58" link="consulter_detail_personne.screen"/>
+  <widgets xsi:type="model:Hotspot" id="5" x="607" y="443" width="79" height="24" measuredWidth="79" measuredHeight="24" link="modifier_adresse_personne.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

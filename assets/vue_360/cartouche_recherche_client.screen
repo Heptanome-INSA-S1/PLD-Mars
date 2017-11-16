@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" id="1" x="96" y="100" width="1001" height="141" text="Recherche client" measuredWidth="1001" measuredHeight="141">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="2" x="144" y="130" text="(o) Numéro client&#xA;( ) Dénomination client&#xA;( ) Nom Personne" measuredWidth="138" measuredHeight="70" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="138" height="22" text="(o) Numéro client"/>
+    <items x="0" y="24" width="138" height="22" text="( ) Dénomination client"/>
+    <items x="0" y="46" width="138" height="22" text="( ) Nom Personne"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="3" x="368" y="130" width="342" text="Text field" measuredWidth="342" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="4" x="368" y="152" width="342" text="Text field" measuredWidth="342" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="5" x="368" y="174" width="342" text="Text field" measuredWidth="342" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="6" x="368" y="196" width="342" text="Text field" measuredWidth="342" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="7" x="864" y="152" width="137" height="30" text="Rechercher" measuredWidth="137" measuredHeight="30">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="8" x="144" y="195" text="[ ] Ville" measuredWidth="52" measuredHeight="26" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="52" height="22" text="[ ] Ville"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="48" y="56" measuredWidth="1001" measuredHeight="737" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/windows_screen.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="48" y="107" measuredWidth="1001" measuredHeight="209" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/vue_360/en-tete_client.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="10" x="550" y="554" width="495" height="233" text="Produits" measuredWidth="495" measuredHeight="233" background="#fff2cc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="20" x="52" y="317" measuredWidth="495" measuredHeight="233" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/vue_360/cartouche_informations_client.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="21" x="550" y="317" measuredWidth="495" measuredHeight="233" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/vue_360/cartouche_relation_banque_client.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="22" x="52" y="554" measuredWidth="495" measuredHeight="233" dimmed="true">
+    <screen xsi:type="model:Screen" href="../assets/vue_360/cartouche_contrats_clients.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="23" x="415" y="344" width="117" height="24" measuredWidth="117" measuredHeight="24" link="../gestion_client/consulter_detail_personne.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

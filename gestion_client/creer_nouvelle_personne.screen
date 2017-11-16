@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="2" x="59" y="71" measuredWidth="1001" measuredHeight="737" dimmed="true">
+    <screen xsi:type="model:Screen" href="modifier_personne.screen#/"/>
+    <overrides>
+      <widgets ref="1/13" noText="true"/>
+      <widgets ref="1/18" noText="true"/>
+      <widgets ref="1/57" noText="true"/>
+      <widgets ref="1/60" noText="true"/>
+      <widgets ref="1/62" noText="true"/>
+      <widgets ref="1">
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.43"/>
+      </widgets>
+      <widgets ref="1/27" noText="true"/>
+      <widgets ref="1/28" noText="true"/>
+      <widgets ref="1/31" noText="true"/>
+      <widgets ref="1/51" noText="true"/>
+      <widgets ref="1/36" noText="true"/>
+      <widgets ref="1/37" noText="true"/>
+      <widgets ref="1/40" noText="true"/>
+      <widgets ref="1/41" noText="true"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

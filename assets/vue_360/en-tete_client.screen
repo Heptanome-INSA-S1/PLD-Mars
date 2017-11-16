@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="96" y="104" width="1001" height="209" measuredWidth="1001" measuredHeight="209" background="#f4cccc"/>
+  <widgets xsi:type="model:Label" id="2" x="143" y="111" text="Numéro client" measuredWidth="82" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="143" y="154" text="Dénomination client" measuredWidth="114" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="143" y="194" text="Adresse principale" measuredWidth="102" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="146" y="277" text="Personne morale" measuredWidth="95" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="696" y="114" text="Agence" measuredWidth="46" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="696" y="157" text="Conseiller" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="696" y="197" text="Segment" measuredWidth="53" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="26" x="760" y="233" width="327" height="70" measuredWidth="327" measuredHeight="70" background="#f3f3f3"/>
+  <widgets xsi:type="model:TextField" id="9" x="272" y="111" width="281" text="458113545445" measuredWidth="281" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="10" x="272" y="154" width="281" text="INSA Lyon" measuredWidth="281" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="272" y="194" width="41" text="20" measuredWidth="41" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="12" x="320" y="194" width="232" text="Avenue Einstein" measuredWidth="232" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="13" x="272" y="244" width="57" text="69621" measuredWidth="57" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="14" x="272" y="219" width="281" measuredWidth="281" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="277" y="219" text="Complément d'adresse" measuredWidth="128" measuredHeight="23" foreground="#666">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="16" x="336" y="244" width="216" text="Villeurbanne" measuredWidth="216" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="17" x="272" y="277" text="OUI, NON" measuredWidth="76" measuredHeight="23" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="18" x="760" y="111" width="215" text="Cred'IF Agricole" measuredWidth="215" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="19" x="760" y="154" width="232" text="MACRON Emmanuel" measuredWidth="232" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="20" x="760" y="194" width="259" text="Enseignement Supérieur" measuredWidth="259" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="817" y="241" text="Modifier" measuredWidth="48" measuredHeight="58" textAlignment="Center" icon="edit (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="905" y="241" text="Label" measuredWidth="32" measuredHeight="58" textAlignment="Center" icon="check (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="974" y="241" text="Annuler" measuredWidth="45" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
